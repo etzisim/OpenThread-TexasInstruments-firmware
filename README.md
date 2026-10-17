@@ -19,6 +19,9 @@ After having flashed the firmware with the instructions above:
 
 The firmware can be compiled on any Linux x86_64 machine with Docker installed, instructions:
 
+## Added fix:
+
+https://github.com/Koenkk/OpenThread-TexasInstruments-firmware/issues/7
 
 ```bash
 # Setup repository
