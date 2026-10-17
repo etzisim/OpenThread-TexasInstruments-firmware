@@ -4,7 +4,7 @@ This repository contains OpenThread RCP firmwares for various Texas Instruments 
 
 ## Flashing
 
-1. Download the firmware for your device from the [releases page](https://github.com/Koenkk/OpenThread-TexasInstruments-firmware/releases). Use the [adapters page](./docs/adapters.md) to figure out what firmware to use for your device.
+1. Download the firmware for your device from the [releases page](https://github.com/etzisim/OpenThread-TexasInstruments-firmware/releases). Use the [adapters page](./docs/adapters.md) to figure out what firmware to use for your device.
 1. Flash the firmware; use e.g. the [SMLIGHT firmware updater](https://smlight.tech/flasher/#other_cc) which allows for easy flashing via the webbrowser (can be used to flash any adapter). Other ways of flashing can be found on the [Zigee2MQTT docs](https://www.zigbee2mqtt.io/guide/adapters/zstack.html#firmware-flashing-cc2652-cc1352).
 
 ## Example usage: Home Assistant OpenThread Border Router add-on
@@ -22,7 +22,7 @@ The firmware can be compiled on any Linux x86_64 machine with Docker installed, 
 
 ```bash
 # Setup repository
-git clone https://github.com/Koenkk/OpenThread-TexasInstruments-firmware.git
+git clone https://github.com/etzisim/OpenThread-TexasInstruments-firmware.git
 cd OpenThread-TexasInstruments-firmware
 git submodule update --init --recursive
 
